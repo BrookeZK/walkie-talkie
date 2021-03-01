@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Walkie Talkie
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### By Brooke K., last updated 02/28/2021
 
-## Available Scripts
+## Technologies Used
 
-In the project directory, you can run:
+* _[Create React App](https://github.com/facebook/create-react-app)_
+* _[WebRTC API](https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API)_
+* _[Node](https://nodejs.org/en/download/) v12.18.3_
+* [Firebase Firestore](https://firebase.google.com/docs/firestore)
 
-### `npm start`
+## Description
+"Walkie Talkie" is an application whose design and functionality simulates the experience of using a walkie talkie. The Minimum Viable Product is to start and stop an audio session with 1 other person using the WebRTC API for audio sharing and firestore to create and share session information so that two people can talk to each other.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## User Stories
+As a user, I would like to...:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- [ ] start and end an audio chat with one other person.
+- [ ] start and end an audio chat with multiple people.
+- [ ] only be able to speak by pressing a button, like a walkie talkie has.
+- [ ] manage my audio input and output.
+- [ ] invite someone to my walkie talkie session with an invitation code.
+- [ ] be able to join a session with an invitation code.
+- [ ] be able to restart the same session, even if I leave the application and return at a later time.
+- [ ] start multiple sessions, similar to having access to multiple channels on a walkie talkie.
+- [ ] be able to nickname my sessions.
+- [ ] use the application anonymously.
+- [ ] create an account to save and manage my walkie talkie sessions.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Prerequisites to running and viewing this application
 
-### `npm run build`
+You need the following installed on your computer to view this application:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* [Node](https://nodejs.org/en/download/)
+* A modern web browser, like [Firefox](https://www.mozilla.org/en-US/firefox/new/) or [Chrome](https://www.google.com/chrome/)
+* [VSCode](https://code.visualstudio.com/download) or another text editor to view or edit the code base
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Setup/Installation Requirements
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Download or clone this repo
+* In your terminal navigate to the root level of the project, and:
+    * To download dependencies, run `npm install`
+    * To create a production build of the app, run `npm run build`
+    * To start a development server, run `npm run start` and then navigate open [http://localhost:3000](http://localhost:3000) to view it in the browser. The page will reload if you make edits. You will also see any lint errors in the console.
 
-### `npm run eject`
+## Known Bugs
+There are no known bugs currently.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## License
+MIT
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Copyright (c) 2021
