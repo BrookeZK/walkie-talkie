@@ -1,6 +1,6 @@
 # Walkie Talkie
 
-#### By Brooke K., last updated 02/28/2021
+#### By Brooke K., last updated 07/07/2021
 
 ## Technologies Used
 
