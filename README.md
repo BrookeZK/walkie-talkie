@@ -50,7 +50,7 @@ The project doesn't work! You cannot consistently make a voice and video connect
 ## Resources
 * [WebRTC + Firebase docs](https://webrtc.org/getting-started/firebase-rtc-codelab)
 * [WebRTC MDN docs](https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API) 
-* [a WebRTC example project](https://webrtc.github.io/samples/) (I forget which) 
+* [A WebRTC example project](https://webrtc.github.io/samples/) (I forget which) 
 
 ## License
 MIT
