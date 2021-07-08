@@ -45,7 +45,12 @@ You need the following installed on your computer to view this application:
     * To start a development server, run `npm run start` and then navigate open [http://localhost:3000](http://localhost:3000) to view it in the browser. The page will reload if you make edits. You will also see any lint errors in the console.
 
 ## Known Bugs
-There are no known bugs currently.
+The project doesn't work! You cannot consistently make a voice and video connection.
+
+## Resources
+* [WebRTC + Firebase docs](https://webrtc.org/getting-started/firebase-rtc-codelab)
+* [WebRTC MDN docs](https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API) 
+* [a WebRTC example project](https://webrtc.github.io/samples/) (I forget which) 
 
 ## License
 MIT
